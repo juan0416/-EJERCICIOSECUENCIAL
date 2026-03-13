@@ -1,0 +1,6 @@
+// Programa que captura el nombre de una persona y la saluda.
+ESCRIBIR "Programa que te va a saludar"
+ESCRIBIR "Digite su nombre"
+LEER Nombre
+ESCRIBIR "Hola señor ",Nombre, " ¿Cómo estás?"
+FINPROCESO
