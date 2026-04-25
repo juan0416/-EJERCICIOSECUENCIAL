@@ -1,0 +1,12 @@
+Proceso IntercambiarValores
+    Definir A, B, aux Como Real
+    Leer A
+    Leer B
+    
+    aux = A
+    A = B
+    B = aux
+    
+    Escribir "A: ", A
+    Escribir "B: ", B
+FinProceso
