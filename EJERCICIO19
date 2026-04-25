@@ -1,0 +1,10 @@
+Proceso CalcularNotaTest
+    Definir correctas, incorrectas, blanco, nota Como Entero
+    Leer correctas
+    Leer incorrectas
+    Leer blanco
+    
+    nota = correctas*5 + incorrectas*(-1)
+    
+    Escribir "Nota: ", nota
+FinProceso
