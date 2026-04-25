@@ -1,0 +1,11 @@
+Proceso DistanciaEntrePuntos
+    Definir x1, y1, x2, y2, d Como Real
+    Leer x1
+    Leer y1
+    Leer x2
+    Leer y2
+    
+    d = rc((x2-x1)^2 + (y2-y1)^2)
+    
+    Escribir "Distancia: ", d
+FinProceso
