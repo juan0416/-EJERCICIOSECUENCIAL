@@ -1,0 +1,8 @@
+Proceso CalcularDescuento
+    Definir total, pagar Como Real
+    Leer total
+    
+    pagar = total * 0.85
+    
+    Escribir "Total a pagar: ", pagar
+FinProceso
