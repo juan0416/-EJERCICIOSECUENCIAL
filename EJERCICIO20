@@ -1,0 +1,12 @@
+Proceso CalcularDineroMonedas
+    Definir m2, m1, m50, m20, m10, total Como Real
+    Leer m2
+    Leer m1
+    Leer m50
+    Leer m20
+    Leer m10
+    
+    total = m2*2 + m1*1 + m50*0.5 + m20*0.2 + m10*0.1
+    
+    Escribir "Total dinero: ", total
+FinProceso
