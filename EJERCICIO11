@@ -1,0 +1,9 @@
+Proceso DistanciaEntreNumeros
+    Definir a, b, distancia Como Real
+    Leer a
+    Leer b
+    
+    distancia = abs(a - b)
+    
+    Escribir "Distancia: ", distancia
+FinProceso
