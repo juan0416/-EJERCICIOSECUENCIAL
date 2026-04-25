@@ -1,0 +1,13 @@
+Proceso CalcularComisiones
+    Definir sueldo, v1, v2, v3, comision, total Como Real
+    Leer sueldo
+    Leer v1
+    Leer v2
+    Leer v3
+    
+    comision = (v1 + v2 + v3) * 0.10
+    total = sueldo + comision
+    
+    Escribir "Comision: ", comision
+    Escribir "Total: ", total
+FinProceso
