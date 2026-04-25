@@ -1,0 +1,11 @@
+Proceso TiempoAlcanceVehiculos
+    Definir d, v1, v2, t Como Real
+    Leer d
+    Leer v1
+    Leer v2
+    
+    t = d / (v2 - v1)
+    
+    Escribir "Tiempo en horas: ", t
+    Escribir "Tiempo en minutos: ", t * 60
+FinProceso
