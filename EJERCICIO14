@@ -1,0 +1,11 @@
+Proceso InvertirNumero
+    Definir num, d1, d2, invertido Como Entero
+    Leer num
+    
+    d1 = trunc(num / 10)
+    d2 = num mod 10
+    
+    invertido = d2 * 10 + d1
+    
+    Escribir "Invertido: ", invertido
+FinProceso
