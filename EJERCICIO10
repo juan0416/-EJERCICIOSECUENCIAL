@@ -1,0 +1,12 @@
+Proceso CalcularNotaFinal
+    Definir p1, p2, p3, examen, trabajo, final Como Real
+    Leer p1
+    Leer p2
+    Leer p3
+    Leer examen
+    Leer trabajo
+    
+    final = ((p1+p2+p3)/3)*0.55 + examen*0.30 + trabajo*0.15
+    
+    Escribir "Nota final: ", final
+FinProceso
